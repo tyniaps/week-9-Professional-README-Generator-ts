@@ -32,7 +32,7 @@ ${data.usage}
 ## Contributors
 ${data.contributors}
 ## Tests
-
+${data.tests}
 ## Contact
 `;
 }
