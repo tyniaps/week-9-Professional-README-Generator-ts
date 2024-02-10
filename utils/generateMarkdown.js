@@ -21,7 +21,7 @@ function generateMarkdown(data) {
 [Usage](#usage)
 [Contributors](#contributors)
 [Tests](#tests)
-[Contact](#contact)
+[Questions](#questions)
 
 ## Description
 ${data.desciption}
@@ -33,7 +33,9 @@ ${data.usage}
 ${data.contributors}
 ## Tests
 ${data.tests}
-## Contact
+## Questions
+- GitHub: [${data.github}](http://github.com/${data.github}/)
+
 `;
 }
 
