@@ -19,7 +19,7 @@ function generateMarkdown(data) {
 [Description](#description)
 [Installation](#installation)
 [Usage](#usage)
-[Contributing](#contributing)
+[Contributors](#contributors)
 [Tests](#tests)
 [Contact](#contact)
 
@@ -29,8 +29,8 @@ ${data.desciption}
 ${data.installation}
 ## Usage
 ${data.usage}
-## Contributing
-
+## Contributors
+${data.contributors}
 ## Tests
 
 ## Contact
