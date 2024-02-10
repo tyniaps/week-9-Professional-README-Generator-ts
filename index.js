@@ -1,12 +1,13 @@
 // TODO: Include packages needed for this application
 const inquirer = require ('inquirer')
 const fs = require ('fs')
+const path = require ('path')
 const generateMarkdown = require ('./generateMarkdown.js')
 // TODO: Create an array of questions for user input
 const questions = [
     {
         type: 'input',
-        name: 'project title',
+        name: 'project-title',
         message: 'what is the title of your project? ',
     },
     {
@@ -31,16 +32,17 @@ const questions = [
         message: 'provide instructions and examples for use,'
     },
     {
-        type: 'input',
-        name: 'License',
-        message: 'what can other developers use your project for? provide information about Licenses here',
+        type: 'checkbox',
+        name: 'license',
+        message: 'what can other developers use your project for? select the license relevany to your project',
+        choices: ['MIT', 'Apache 2.0', 'GNU', 'Mozilla', 'BSD3', 'None'],
 
     },
     {
         type: 'input',
         name: 'contributors',
         message: 'did you collaborate with others to complete this project? if yes, provide details of their github profiles here'
-
+      
     },
     {
         type: 'input',
