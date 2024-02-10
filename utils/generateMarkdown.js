@@ -25,9 +25,8 @@ function generateMarkdown(data) {
 
 ## Description
 ${data.desciption}
-
 ## Installation
-
+${data.installation}
 ## Usage
 
 ## Contributing
