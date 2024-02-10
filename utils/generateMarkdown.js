@@ -35,7 +35,7 @@ ${data.contributors}
 ${data.tests}
 ## Questions
 - GitHub: [${data.github}](http://github.com/${data.github}/)
-
+- Email: ${data.email}
 `;
 }
 
