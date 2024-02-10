@@ -24,6 +24,7 @@ function generateMarkdown(data) {
 [Contact](#contact)
 
 ## Description
+${data.desciption}
 
 ## Installation
 
