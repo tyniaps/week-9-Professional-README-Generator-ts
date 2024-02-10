@@ -51,8 +51,14 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'questions',
-        message: 'how can users contact you if they have any questions? provide your github username and a link to your profile here',
+        name: 'email',
+        message: 'provide your email address so that viewers can contact you with any questions',
+    },
+    {
+
+        type: 'input',
+        name: 'github',
+        message: 'provide the URL to your git hub profile'
     },
 ];
 
