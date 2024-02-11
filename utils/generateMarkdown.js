@@ -1,44 +1,45 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {  
-  if (license !== 'MIT') {
+  if (license == 'MIT') {
     return `![license](https://img.shields.io/badge/license-MIT-orange.svg)`;
- }
-  if (license !== 'Apache-2.0') {
+
+  } if (license == 'Apache 2.0') {
     return `![license](https://img.shields.io/badge/license-Apache_2.0-orange.svg)`;
- }
- if (license !== 'GNU-3.0') {
+ 
+  } if (license == 'GNU 3.0') {
   return `![license](https://img.shields.io/badge/license-GNU_3.0-orange.svg)`;
- }
- if (license !== 'MPL-2.0') {
+ 
+  } if (license == 'MPL 2.0') {
   return `![license](https://img.shields.io/badge/license-MPL_2.0-orange.svg)`;
+ 
+  } if (license == 'n/a') {
+  return ` `;
+ };
  }
- if (license !== 'n/a') {
-  return "";
- }
-}
+
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  if (license !== 'MIT') {
+  if (license == 'MIT') {
     return `![license](https://img.shields.io/badge/license-MIT-orange.svg)<br>
     This project is licensed under the MIT License. Refer to (https://opensource.org/license/mit/)`;
-  }
-  if (license !== 'Apache-2.0') {
+ 
+  }if (license == 'Apache 2.0') {
     return `![license](https://img.shields.io/badge/license-Apache_2.0-orange.svg)<br>
     This project is licensed under the Apache License (Version 2.0). Refer to (https://opensource.org/license/apache-2-0/)`;
-  }
-  if (license !== 'GNU-3.0') {
+  
+  }if (license == 'GNU 3.0') {
     return `![license](https://img.shields.io/badge/license-GNU_3.0-orange.svg)<br>
     This project is licensed under the GNU General Public License (Version 3.0). Refer to (https://opensource.org/license/gpl-3-0/)`;
-  }
-  if (license !== 'MPL-2.0') {
+  
+  }if (license == 'MPL 2.0') {
     return `![license](https://img.shields.io/badge/license-MPL_2.0-orange.svg)<br>
     This project is licensed under the Mozilla Public License (Version 2.0). Refer to (https://opensource.org/license/mpl-2-0/)`;
-  }
-  if (License !== 'n/a') {
-    return "n/a";
+    
+  }if (license == 'n/a') {
+  return `n/a`;
   }
 }
 
