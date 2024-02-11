@@ -2,7 +2,7 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {  
   if (license !== "n/a") {
-    return `![license](https://img.shields.io/badge/license-${data.license}-pink.svg)`;
+    return `![license](https://img.shields.io/badge/license-${license}-pink.svg)`;
   }
     return;
 }
@@ -11,9 +11,9 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license !== "n/a") {
-    return `(https://api.github.com/licenses/${data.license})`
+    return `(https://api.github.com/licenses/${license})`
   }
-  return;
+  return"";
 }
 
 
@@ -24,12 +24,14 @@ function renderLicenseSection(license) {
   if (license !== "n/a") {
     return $data.license `[License](#license)`
   }
-    return;
+    return"";
 }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.project-title}  
+  return `# ${data.title}  
+
+${renderLicenseBadge(data.license)}  
 
 ## Table of Contents
 [Description](#description)
@@ -41,7 +43,7 @@ function generateMarkdown(data) {
 [Questions](#questions)
 
 ## Description
-${data.desciption}
+${data.description}
 ## Installation
 ${data.installation}
 ## Usage

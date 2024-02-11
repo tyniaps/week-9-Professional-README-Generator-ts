@@ -11,7 +11,7 @@ console.log("Please answer the following questions...")
 const questions = [
     {
         type: 'input',
-        name: 'project-title',
+        name: 'title',
         message: 'what is the title of your project? ',
     },
     {
