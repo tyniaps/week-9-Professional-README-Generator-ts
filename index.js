@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require ('inquirer');
 const fs = require ('fs');
-const generateMarkdown = require ('./generateMarkdown.js');
+const generateMarkdown = require ('./utils/generateMarkdown');
 const { error } = require('console');
 
 console.log("Welcome to the Professional README Generator")
@@ -18,11 +18,6 @@ const questions = [
         type: 'input',
         name: 'description',
         message: 'provide a short description of your project. use the following questions as a guide - what was your motivation/ why did you build this project? what problem does it solve? what did you learn from completing this project?',
-    },
-    {
-        type: 'input',
-        name: 'table of contents',
-        message: 'provide a table of contents so that viewers of your README can easily find the information that they seek',
     },
     {
         type: 'input',
