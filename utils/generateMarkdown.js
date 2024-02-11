@@ -2,9 +2,9 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {  
   if (license !== "n/a") {
-    return `![license](https://img.shields.io/badge/license-${license}-pink.svg)`;
+    return `![license](https://img.shields.io/badge/license-${license}-orange.svg)`;
   }
-    return;
+    return"";
 }
 
 // TODO: Create a function that returns the license link
@@ -34,12 +34,12 @@ function generateMarkdown(data) {
 ${renderLicenseBadge(data.license)}  
 
 ## Table of Contents
-[Description](#description)
-[Installation](#installation)
-[Usage](#usage)
-[License](#license)
-[Contributors](#contributors)
-[Tests](#tests)
+[Description](#description)<br>
+[Installation](#installation)<br>
+[Usage](#usage)<br>
+[License](#license)<br>
+[Contributors](#contributors)<br>
+[Tests](#tests)<br>
 [Questions](#questions)
 
 ## Description
@@ -55,8 +55,8 @@ ${data.contributors}
 ## Tests
 ${data.tests}
 ## Questions
-- GitHub: [${data.github}](http://github.com/${data.github}/)
-- Email: ${data.email}
+GitHub: [${data.github}](http://github.com/${data.github}/)<br>
+Email: ${data.email}
 `;
 }
 
