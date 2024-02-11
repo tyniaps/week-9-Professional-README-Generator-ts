@@ -17,7 +17,7 @@ const questions = [
     {
         type: 'input',
         name: 'description',
-        message: 'provide a short description of your project. use the following questions as a guide - what was your motivation/ why did you build this project? what problem does it solve? what did you learn from completing this project?',
+        message: 'provide a short description of your project (why did you build it? what problem does it solve? what did you learn?)',
     },
     {
         type: 'input',
