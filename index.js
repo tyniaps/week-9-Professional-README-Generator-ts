@@ -35,7 +35,7 @@ const questions = [
         type: 'checkbox',
         name: 'license',
         message: 'what can other developers use your project for? select the license relevancy to your project',
-        choices: ['MIT', 'Apache 2.0', 'GNU', 'Mozilla', 'BSD3', 'N/A'],
+        choices: ['MIT', 'Apache-2.0', 'GPL-3.0', 'AGPL-3.0', 'MPL-2.0', 'n/a'],
 
     },
     {
