@@ -33,7 +33,7 @@ const questions = [
     {
         type: 'checkbox',
         name: 'license',
-        message: 'what can other developers use your project for? select the license relevancy to your project',
+        message: 'what can other developers use your project for? select the license relevant to your project',
         choices: ['MIT', 'Apache-2.0', 'GPL-3.0', 'AGPL-3.0', 'MPL-2.0', 'n/a'],
 
     },
@@ -76,7 +76,7 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions).then((responses) => {
-        writeToFile("README.md,", generateMarkdown ((responses)));
+        writeToFile("README.md", generateMarkdown ((responses)));
     
     })};
 
