@@ -45,7 +45,7 @@ To install, clone this GitHub repository to your local PC.
 
 ## Screenshot
 
-![Screenshot of application](<Screenshot 2024-02-12 163222.png>)
+![Screenshot of application](<Screenshot 2024-02-12 163222-1.png>)
 
 ## Link to Video Demo
 
