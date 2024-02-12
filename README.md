@@ -45,7 +45,11 @@ To install, clone this GitHub repository to your local PC.
 
 ## Screenshot
 
+![Screenshot of application](<Screenshot 2024-02-12 163222.png>)
+
 ## Link to Video Demo
+
+https://drive.google.com/file/d/1J6LLcblRNpsRTqcFvo4HXfTGZdGtappW/view 
 
 ## Credits
 
