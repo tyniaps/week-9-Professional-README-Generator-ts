@@ -12,6 +12,9 @@ function renderLicenseBadge(license) {
  
   } if (license == 'MPL 2.0') {
   return `![license](https://img.shields.io/badge/license-MPL_2.0-purple.svg)`;
+ 
+  } if (license == 'n/a') {
+  return ` `;
   };
  }
 
