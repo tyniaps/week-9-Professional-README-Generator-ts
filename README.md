@@ -26,11 +26,11 @@ To install, clone this GitHub repository to your local PC.
 ## Usage 
 
 1. Open the cloned repository within the Command Line.<br>
-<br>
+
 2. Type "node index.js" within the Command Line and press the "enter" key to run.<br>
-<br>
+
 3. You will be presented with a number of questions that you must answer - ensure that you read any further instructions carefully.<br>
-<br>
+
 4. Finally, your professional README will be generated for you. You will be able to preview this in Visual Studio Code.
 
 
