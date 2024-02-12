@@ -1,4 +1,4 @@
-// TODO: Include packages needed for this application
+// Below is the code for the packages needed for the application
 const inquirer = require ('inquirer');
 const fs = require ('fs');
 const generateMarkdown = require ('./utils/generateMarkdown');
@@ -7,7 +7,7 @@ const { error } = require('console');
 console.log("Welcome to the Professional README Generator")
 console.log("Please answer the following questions...")
 
-// TODO: Create an array of questions for user input
+// Below is an array of questions for user input
 const questions = [
     {
         type: 'input',
@@ -61,7 +61,7 @@ const questions = [
     },
 ];
 
-// TODO: Create a function to write README file
+// Below is a function that will write the README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (error) => { 
         if (error) { 
@@ -73,7 +73,7 @@ function writeToFile(fileName, data) {
 
 };
 
-// TODO: Create a function to initialize app
+// Below is a function that will initialize the app
 function init() {
     inquirer.prompt(questions).then((responses) => {
         writeToFile("./sample/README.md", generateMarkdown ((responses)));
