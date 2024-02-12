@@ -15,6 +15,9 @@ function renderLicenseBadge(license) {
  
   } if (license == 'n/a') {
   return ` `;
+
+  }if (license == ' '); {
+  return ` `;
   };
  }
 
